@@ -8,6 +8,84 @@
   <body>
     <main>
       <!-- Complete the Exercises HERE -->
+      <table>
+        <thead>
+          <tr>
+            <th>Soda Can</th>
+            <th>total servings</th>
+            <th>serving size</th>
+            <th>calories per serving</th>
+            <th>carbs per serving</th>
+            <th>sugars per serving</th>
+            <th>sodium per serving</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Coca Cola</td>
+            <td>12</td>
+            <td>1 can</td>
+            <td>140</td>
+            <td>14% 39%</td>
+            <td>78% 39g</td>
+            <td>2% 45mg</td>
+          </tr>
+          <tr>
+            <td>Pepsi</td>
+            <td>12</td>
+            <td>1 can</td>
+            <td>150</td>
+            <td>15% 41g</td>
+            <td>83% 41g</td>
+            <td>1% 30mg</td>
+          </tr>
+          <tr>
+            <td>Coca Cola Zero</td>
+            <td>12</td>
+            <td>1 can (355ml)</td>
+            <td>0</td>
+            <td>0%</td>
+            <td>0%</td>
+            <td>2% 40mg</td>
+          </tr>
+          <tr>
+            <td>Dr. Pepper</td>
+            <td>12</td>
+            <td>1 can</td>
+            <td>150</td>
+            <td>14% 40g</td>
+            <td>78% 39g</td>
+            <td>2& 55mg</td>
+          </tr>
+          <tr>
+            <td>Mountain Dew</td>
+            <td>12</td>
+            <td>1 can</td>
+            <td>170</td>
+            <td>15% 46mg</td>
+            <td>46g</td>
+            <td>3% 60mg</td>
+          </tr>
+        </tbody>
+      </table>
+      <form>
+        <label for="totalServings">total servings</label><br />
+        <input
+          type="text"
+          id="totalServings"
+          name="totalServings"
+          required
+        /><br />
+        <label for="servingSize">serving size</label><br />
+        <input type="text" id="servingSize" name="servingSize" required /><br />
+        <label for="caloriesPer">calories per serving</label><br />
+        <input type="text" id="caloriesPer" name="caloriesPer" required /><br />
+        <label for="sugarsPer">sugars per serving</label><br />
+        <input type="text" id="sugarsPer" name="sugarsPer" /><br />
+        <label for="sodiumPer">sodium per serving</label><br />
+        <input type="text" id="sodiumPer" name="sodiumPer" /><br />
+        <button type="submit">Submit</button>
+      </form>
     </main>
   </body>
 </html>
