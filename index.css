@@ -1,0 +1,14 @@
+form {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+div {
+  margin: 20px;
+  width: 60%;
+}
+
+button {
+  margin: 10px 0;
+}
